@@ -1,9 +1,17 @@
 import React from "react";
+import {Container, Row, Col} from "react-bootstrap";
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <span>Home</span>
+    <Container className="p-3">
+        <Row>
+          <Col>
+          <img src={require("../assets/mkr-linkedin-photo.jpeg")} alt="Marla K. Robertson" />
+          </Col>
+          <Col>Paragraph</Col>
+        </Row>
+      </Container>
   )
 }
 
-export default Home;
+export default HomePage;
