@@ -16,7 +16,7 @@ import "../assets/App.css";
 const MKRNav = () => {
 	return (
 		<Navbar bg="light" expand="lg">
-			<Navbar.Brand href="#home">Marla K. Robertson</Navbar.Brand>
+			<Navbar.Brand href="#home">Dr. Marla K. Robertson</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="mr-auto">
