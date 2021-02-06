@@ -21,10 +21,7 @@ const MKRNav = () => {
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="mr-auto">
 					<LinkContainer to="/">
-						<Nav.Link href="/">Home</Nav.Link>
-					</LinkContainer>
-					<LinkContainer to="/about">
-						<Nav.Link href="/about">About</Nav.Link>
+						<Nav.Link href="/">About</Nav.Link>
 					</LinkContainer>
 					<LinkContainer to="/contact">
 						<Nav.Link href="/contact">Contact</Nav.Link>
