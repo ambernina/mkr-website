@@ -27,7 +27,7 @@ h6 {
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #343a40;
+	color: #9D968D;
 }
 h1 {
 	font-size: 6rem;
@@ -67,7 +67,7 @@ p.lead {
 	margin-right: 0;
 }
 .social-icons a:hover {
-	background-color: #00bdad;
+	background-color: #215080;
 }
 .dev-icons {
 	font-size: 3rem;
@@ -85,7 +85,7 @@ p.lead {
 }
 @media (min-width: 992px) {
 	#sideNav {
-		text-align: center;
+		text-align: left;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -131,9 +131,9 @@ section.resume-section .resume-item .resume-date {
 	min-width: none;
 }
 @media (min-width: 768px) {
-	section.resume-section {
+	/* section.resume-section {
 		min-height: 100vh;
-	}
+	} */
 	section.resume-section .resume-item .resume-date {
 		min-width: 18rem;
 	}
@@ -145,19 +145,19 @@ section.resume-section .resume-item .resume-date {
 	}
 }
 .bg-primary {
-	background: rgb(0,189,173);
-	background: linear-gradient(27deg, rgba(0,189,173,1) 0%, rgba(12,82,83,1) 100%);
+	background: rgb(15,36,57);
+	background: linear-gradient(132deg, rgba(15,36,57,1) 40%, rgba(157,150,141,1) 100%);
 }
 .text-primary {
-	color: #00bdad !important;
+	color: #0F2439 !important;
 }
 a {
-	color: #00bdad;
+	color: #0F2439;
 }
 a:active,
 a:focus,
 a:hover {
-	color: #0c5253;
+	color: #215080;
 }
 .card {
     margin-right: 20px;
@@ -174,4 +174,4 @@ a:hover {
 	@include media-breakpoint-only(xl) {
 	  column-count: auto;
 	}
-  }
+	}
