@@ -178,3 +178,8 @@ a:hover {
 #noBottomMargin {
 	margin-bottom: 0 !important;
 }
+
+.apa-reference {
+	padding-left: 36px;
+	text-indent: -36px;
+}
