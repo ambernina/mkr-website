@@ -120,7 +120,7 @@ p.lead {
 		display: block;
 	}
 }
-section.resume-section {
+section {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
 	max-width: 75rem;
